@@ -1,0 +1,30 @@
+{
+  "name": "lighthouse-validator-client.dnp.dappnode.eth",
+  "version": "1.0.0",
+  "upstreamVersion": "v1.3.0",
+  "upstreamRepo": "sigp/lighthouse",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "shortDescription": "Lighthouse ETH2.0 Validator Client",
+  "description": "An open-source Ethereum 2.0 client, written in Rust and maintained by Sigma Prime.",
+  "type": "service",
+  "architectures": ["linux/amd64"],
+  "author": "Tom Kearney <t@lkm.pm> (https://github.com/tkearney)",
+  "contributors": [
+  ],
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TKearney/DAppNodePackage-lighthouse-validator-client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TKearney/DAppNodePackage-lighthouse-validator-client/issues"
+  },
+  "requirements": {
+    "minimumDappnodeVersion": "0.2.20"
+  },
+  "categories": ["Blockchain"],
+  "links": {
+    "readme": "https://github.com/TKearney/DAppNodePackage-lighthouse-validator-client",
+    "lighthouse": "https://github.com/sigp/lighthouse"
+  }
+}

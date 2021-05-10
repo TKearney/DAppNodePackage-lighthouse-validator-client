@@ -1,0 +1,19 @@
+version: "3.4"
+services:
+  lighthouse-validator-client.dnp.dappnode.eth:
+    build:
+      context: ./build
+      args:
+        UPSTREAM_VERSION: v1.3.0
+    image: "lighthouse-validator-client.dnp.dappnode.eth:1.0.0"
+    restart: always
+    environment:
+      - NETWORK=mainnet
+      - EXTRA_OPTS
+    volumes:
+      - "data:/data"
+    ports:
+      - "9000"
+      - 9000/udp
+volumes:
+  data: {}
